@@ -1,0 +1,21 @@
+.contenedor{
+    background: #353535;
+    height:80vh;
+    color: #fff;
+    font-size:15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor input{
+    width: 100%;
+}
+.contenedor textarea{
+    width: 100%;
+    height:150px;
+}
+.contenedor label{
+    padding-bottom: 30px;
+}

@@ -1,0 +1,8 @@
+.portafolio{
+    height:80vh;
+    background:rgb(44, 43, 43);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

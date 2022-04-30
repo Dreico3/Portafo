@@ -33,7 +33,7 @@ export default function Contact() {
             <form
                 onSubmit={handleSubmit} >
                 <label>
-                    nombre:
+                    <h4>Nombre:</h4>
                     <input
                         name='nombre'
                         type="text"
@@ -42,7 +42,7 @@ export default function Contact() {
                 </label>
                 <br />
                 <label>
-                    email:
+                    <h4>Email:</h4>
                     <input
                         name='email'
                         type="email"

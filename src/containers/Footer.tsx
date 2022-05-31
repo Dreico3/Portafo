@@ -1,10 +1,23 @@
 import React from "react";
+import Contact from "./Contact";
 
-export default function Footer(){
-    
-    return(
+import styles from "./css/footer.module.css";
+
+
+
+export default function Footer() {
+
+    return (
         <div>
-            <h1>Footer</h1>
+            <div className={styles.foo}>
+                <Contact />
+            </div>
+            <div className={styles.redes}>
+                <h2>Redes sociales</h2>
+                <p>Facebook</p>
+                <p>Email</p>
+                <p>Twitter</p>
+            </div>
         </div>
     )
 }

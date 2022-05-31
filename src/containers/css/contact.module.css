@@ -1,20 +1,25 @@
 .contenedor{
-    height:80vh;
+    height:50vh;
     color: #fff;
     font-size:15px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 40px;
 }
 
 .contenedor input{
-    width: 100%;
+    width: 22em;
 }
 .contenedor textarea{
-    width: 100%;
+    width: 22em;
     height:150px;
 }
 .contenedor label{
     padding-bottom: 30px;
+}
+
+.titulo{
+    color: #fff;
 }

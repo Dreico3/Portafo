@@ -1,6 +1,10 @@
-import React from "react";
+//styles
 import styles from './css/home.module.css';
+//libreries  and components
+import React from "react";
 import Typical from 'react-typical';
+import Contact from './Contact';
+//icons
 import foto from '../img/foto1.jpg';
 import js from '../img/js.png';
 import csharp from '../img/csharp.png';
@@ -14,28 +18,29 @@ import react from '../img/react.png';
 import redux from '../img/redux.png';
 import sequelize from '../img/sequelize.png';
 import ts from '../img/ts.png';
+
 export default function Home() {
 
     return (
         <div className={styles.grid}>
 
-                <div className={styles.titulo}>
-                    <div>
-                        <p>hola !</p>
-                        <h1>soy <span>Erick Cruz</span></h1>
-                        <p>Desarrollador full stack</p>
-                        <Typical
-                            steps={['Front-end', 2000, 'Back-end', 2000, 'TypesScrip', 2000, 'Node.js', 2000]}
-                            loop={Infinity}
-                            wrapper="p"
-                        />
-                    </div>
+            <div className={styles.titulo}>
+                <div>
+                    <p>hola !</p>
+                    <h1>soy <span>Erick Cruz</span></h1>
+                    <p>Desarrollador full stack</p>
+                    <Typical
+                        steps={['Front-end', 2000, 'Back-end', 2000, 'TypesScrip', 2000, 'Node.js', 2000]}
+                        loop={Infinity}
+                        wrapper="p"
+                    />
                 </div>
+            </div>
 
 
-                <div className={styles.image}>
-                    <img height='500px' src={foto} />
-                </div>
+            <div className={styles.image}>
+                <img height='500px' src={foto} />
+            </div>
             <main className={styles.contenido}>
                 <div>
                     <h1>Soy Erick Cruz, desarrollador web </h1>
@@ -65,16 +70,18 @@ export default function Home() {
                 <img src={postgresql} />
                 <p>Postgresql</p>
                 <img src={python} />
-                <p>Postgresql</p>
+                <p>Python</p>
                 <img src={react} />
-                <p>Postgresql</p>
+                <p>React</p>
                 <img src={redux} />
-                <p>Postgresql</p>
+                <p>Redux</p>
                 <img src={sequelize} />
-                <p>Postgresql</p>
+                <p>Sequelize</p>
                 <img src={ts} />
-                <p>Postgresql</p>
+                <p>Typescript</p>
             </aside>
+          
+
         </div>
     )
 }

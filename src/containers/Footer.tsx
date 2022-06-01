@@ -8,7 +8,7 @@ import styles from "./css/footer.module.css";
 export default function Footer() {
 
     return (
-        <div>
+        <div className={styles.footer}>
             <div className={styles.foo}>
                 <Contact />
             </div>

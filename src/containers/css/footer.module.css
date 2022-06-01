@@ -9,3 +9,9 @@
     text-align: center;
     color: #fff;
 }
+
+.footer{
+    position : absolute;
+	width : 100vw;
+    background-color:#100f0fce;
+}

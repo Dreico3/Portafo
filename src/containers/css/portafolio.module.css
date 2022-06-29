@@ -1,8 +1,13 @@
 .portafolio{
-    height:80vh;
+   /*  height:80vh;
     background:rgb(44, 43, 43);
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+}
+.texto{
+    padding:10px;
+    text-align: center;
+    color:azure;
 }

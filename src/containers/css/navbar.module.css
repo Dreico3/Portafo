@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns:repeat(2, 1fr);
     grid-template-areas: "uno dos";
-    background: white;
+    background: #d1c303;
 }
 .link{
     text-decoration:none;
@@ -13,7 +13,7 @@
 
 .uno{
     grid-area: uno;
-   
+    margin-left:30px;
 }
 .dos{
     grid-area: dos;
@@ -30,6 +30,10 @@
     font-size: 21px;
     margin:0 15px
 }
+.logo{
+    height: 80px;
+    margin-left: 40px;
+}
 
 @media screen and (max-width:768px){
     .navbar{
@@ -40,11 +44,17 @@
                             "dos"
 
     }
+    .logo{
+        margin:0;
+    }
     .uno{
         grid-area: uno;
         text-align: center;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .dos{
+        grid-area: dos;
     }
 }
